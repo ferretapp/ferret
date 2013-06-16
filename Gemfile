@@ -12,6 +12,8 @@ gem 'sass-rails'
 gem 'coffee-rails'
 gem 'uglifier', '1.2.3'
 
+gem 'coveralls', require: false
+
 group :development, :test do
   gem 'sqlite3', '~> 1.3.7'
   gem 'rspec-rails', '2.11.0'
