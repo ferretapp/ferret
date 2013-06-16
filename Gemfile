@@ -1,22 +1,22 @@
 source 'https://rubygems.org'
 
 gem 'rails', '4.0.0.rc2'
-gem 'bootstrap-sass', '~> 2.1'
+gem 'bootstrap-sass', '~> 2.3.2.0'
 gem 'bcrypt-ruby', '~> 3.0.1'
 gem 'faker', '~> 1.0.1'
-gem 'will_paginate', '~> 3.0.3'
-gem 'bootstrap-will_paginate', '~> 0.0.6'
+gem 'will_paginate', '~> 3.0.4'
+gem 'bootstrap-will_paginate', '~> 0.0.9'
 gem 'jquery-rails', '~> 2.0.2'
 
-gem 'sass-rails'
-gem 'coffee-rails'
+gem 'sass-rails', '~> 4.0.0.beta1'
+gem 'coffee-rails', '~> 4.0.0.beta1'
 gem 'uglifier', '~> 1.2.3'
 
 gem 'coveralls', require: false
 
 group :development, :test do
   gem 'sqlite3', '~> 1.3.7'
-  gem 'rspec-rails', '~> 2.11.0'
+  gem 'rspec-rails', '~> 2.13.2'
   gem 'guard-rspec', '~> 1.2.1'
   gem 'guard-spork', '~> 1.2.0'  
   gem 'childprocess', '~> 0.3.6'
@@ -24,7 +24,7 @@ group :development, :test do
 end
 
 group :test do
-  gem 'capybara', '~> 1.1.2'
+  gem 'capybara', '~> 2.1.0'
   gem 'factory_girl_rails', '~> 4.1.0'
   gem 'cucumber-rails', '~> 1.2.1', :require => false
   gem 'database_cleaner', '~> 0.7.0'
@@ -34,5 +34,5 @@ group :test do
 end
 
 group :production do
-  gem 'pg', '~> 0.12.2'
+  gem 'pg', '~> 0.15.1'
 end
