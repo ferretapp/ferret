@@ -2,3 +2,5 @@ Ferret [![Build Status](https://travis-ci.org/ferretapp/ferret.png?branch=master
 ======
 
 An open-source FRC scouting solution (WIP).
+
+FRC teams are called businesses and scouts are called ferrets. Pretty clever, huh?
